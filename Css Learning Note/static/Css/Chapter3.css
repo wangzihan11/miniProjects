@@ -1,0 +1,20 @@
+.control-box{
+    width: 200px;
+    padding: 10px;
+    border-width: 5px ;
+    margin: 10px;
+    outline-width: 5px;
+    outline-style: outset;
+    background-color: rgb(126, 210, 238);
+    display: inline-block;
+
+}
+.control-space{
+    text-align: center;
+}
+.multi-cols{
+    max-width: 70em;
+    columns: 20em;
+    column-gap: 1.5em;
+    margin: 0 auto;
+}

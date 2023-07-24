@@ -1,0 +1,14 @@
+
+{% block head %}
+<script src="/static/Javascript/Chapter3.js"></script>
+{% endblock %}{% extends 'base.html' %}
+{% block main %}
+<h1>第三章 可简化格式模型</h1>
+<h2>盒子模型</h2>
+<div class="running-box">
+    <div class="function-group" function='ShowMarginPart ShowPadding ShowBorder ShowOutline'></div>
+    <div class="control-space">
+        <div class="control-box">第一个盒子</div>
+        <div class="control-box">第二个盒子</div>
+    </div>
+{% endblock %}

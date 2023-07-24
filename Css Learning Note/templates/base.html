@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/Css/Sum.css">
+    <link rel="stylesheet" href="/static/highlight/styles/dark.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/static/Javascript/generate.js"></script>
+    <script src="/static/Javascript/metaDesign.js"></script>
+    <script src="/static/Javascript/onload.js"></script>
+    <script src="/static/highlight/highlight.js"></script>
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/Chapter2" class="nav-link">Chapter2</a></li>
+            <li class="nav-item"><a href="/Chapter3" class="nav-link">Chapter3</a></li>
+            <li class="nav-item"><a href="/Chapter4" class="nav-link">Chapter4</a></li>
+            <li class="nav-item"><a href="/Chapter5" class="nav-link">Chapter5</a></li>
+        </ul>
+    </nav>
+{% block main %}{% endblock %}
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- <script src="/static/Javascript/prettify.js" onload="PR.prettyPrint();"></script> -->
+</body>
+
+</html>

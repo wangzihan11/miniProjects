@@ -1,0 +1,15 @@
+body{
+    /* margin: 20%; */
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Avenir Next','Segoe UI', Tahoma, Verdana, sans-serif;
+}
+pre{
+    outline-style: solid;
+    display: block;
+}

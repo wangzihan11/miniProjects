@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+{% block head %}
+<script src="/static/Javascript/Chapter2.js"></script>
+<script src="/static/Javascript/index.js"></script>
+{% endblock %}
+{% block main %}
+<h1>第二章：添加样式</h1>
+
+<h2>继承</h2>
+<div class="running-box">
+    <div class="function-group" function="ChangeFatherNodeColor ChangeBackgoundColor"></div>
+    <div class="control-space">
+        <a href="http://wangzihan11.github.io/">这是我的网站</a><br>
+        <p> 上面是一个链接，链接的颜色本来应该是继承自div的,但是被浏览器的默认样式覆盖掉了</p>
+    </div>
+</div>
+
+{% endblock %}
